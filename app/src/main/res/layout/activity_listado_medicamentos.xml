@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListadoMedicamentosActivity">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/purple_500"
+        android:focusedMonthDateColor="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="135dp"
+        android:text="Datos de la medicacion"
+        android:textColor="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="312dp"
+        android:text="Dosis:" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="146dp"
+        android:text="Medicamento:" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/calendarView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="75dp"
+        android:text="CONFIGURAR MEDICACION"
+        android:textColor="@color/teal_200" />
+
+</RelativeLayout>

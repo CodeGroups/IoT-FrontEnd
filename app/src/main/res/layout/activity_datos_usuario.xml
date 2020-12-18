@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatosUsuarioActivity">
+
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="135dp"
+        android:text="@string/name_usu"
+        android:textColor="#F44336"
+        tools:text="@string/name_usu" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="37dp"
+        android:layout_toEndOf="@+id/textView31"
+        android:ems="10"
+        android:hint="Ej. Anna Sarelly"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView32"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="46dp"
+        android:text="Tipo de Sangre:"
+        android:textColor="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Contactos de emergencia:"
+        android:textColor="@color/purple_500" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName10"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="36dp"
+        android:layout_toEndOf="@+id/textView32"
+        android:ems="10"
+        android:hint="Ej. 60 años"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName12"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="43dp"
+        android:layout_toEndOf="@+id/textView34"
+        android:ems="10"
+        android:hint="Primer numero telefonico"
+        android:inputType="phone"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPhone2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="42dp"
+        android:layout_toEndOf="@+id/textView34"
+        android:ems="10"
+        android:hint="Tercer numero telefonico"
+        android:inputType="phone"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPhone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="41dp"
+        android:layout_toEndOf="@+id/textView34"
+        android:ems="10"
+        android:hint="Segundo numero telefonico"
+        android:inputType="phone"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="71dp"
+        android:text="Nombre del paciente:"
+        android:textColor="@color/purple_500" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPhone3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="69dp"
+        android:text="Guardar datos del paciente" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName11"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="42dp"
+        android:layout_toEndOf="@+id/textView33"
+        android:ems="10"
+        android:hint="Ej, AB+"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="131dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="51dp"
+        android:text="Edad del paciente:"
+        android:textColor="@color/purple_500" />
+
+</RelativeLayout>
