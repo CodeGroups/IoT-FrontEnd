@@ -46,14 +46,22 @@ public class ListadoMedicamentosActivity extends AppCompatActivity {
         deviceProvider.getDevice().addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                String nombreMedicamento = snapshot.child(casilla).child("medicina").child("nombre").getValue().toString();
-                textViewMedicamento.setText(getText(R.string.medicamento).toString() + nombreMedicamento);
+                if (snapshot.child(casilla).child("medicina").exists()) {
+                    String nombreMedicamento = snapshot.child(casilla).child("medicina").child("nombre").getValue().toString();
+                    textViewMedicamento.setText(getText(R.string.medicamento).toString() + nombreMedicamento);
 
-                String dosis = snapshot.child(casilla).child("medicina").child("cantidad").getValue().toString();
-                textViewDosis.setText(getText(R.string.dosis).toString() + dosis);
-                /*
-                falta calendario
-                 */
+                    String dosis = snapshot.child(casilla).child("medicina").child("cantidad").getValue().toString();
+                    textViewDosis.setText(getText(R.string.dosis).toString() + dosis);
+
+                    /*
+                    falta calendario
+                     */
+                }
+                else {
+                    textViewMedicamento.setText(R.string.medicamento);
+                    textViewDosis.setText(R.string.dosis);
+                }
+
             }
 
             @Override

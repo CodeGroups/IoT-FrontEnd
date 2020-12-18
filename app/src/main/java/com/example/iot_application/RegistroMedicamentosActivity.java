@@ -56,21 +56,21 @@ public class RegistroMedicamentosActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 currentSnapshot = snapshot;
 
-                if (snapshot.child(casilla).child("medicina").child("nombre").exists()) {
+                if (snapshot.child(casilla).child("medicina").exists()) {
                     nombre = snapshot.child(casilla).child("medicina").child("nombre").getValue().toString();
                     editTextNombre.setText(nombre);
-                }
-                if (snapshot.child(casilla).child("medicina").child("cantidad").exists()) {
+
                     dosis = snapshot.child(casilla).child("medicina").child("cantidad").getValue(int.class);
                     editTextDosis.setText("" + dosis);
-                }
-                if (snapshot.child(casilla).child("medicina").child("descripcion").exists()) {
+
                     descripcion = snapshot.child(casilla).child("medicina").child("descripcion").getValue().toString();
                     editTextDescripcion.setText(descripcion);
                 }
-                if (snapshot.child(casilla).child("horario").child("intervalo").exists()) {
+
+                if (snapshot.child(casilla).child("horario").exists()) {
                     intervalo = snapshot.child(casilla).child("horario").child("intervalo").getValue(long.class);
-                    editTextIntervalo.setText("" + intervalo);
+                    intervaloHoras = (int) (intervalo/3600);
+                    editTextIntervalo.setText("" + intervaloHoras);
                 }
             }
 
