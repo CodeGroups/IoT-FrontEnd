@@ -16,11 +16,13 @@
         />
 
     <EditText
+        android:id="@+id/editTextNombreDispositivo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/ingrese_el_nombre"/>
 
     <Button
+        android:id="@+id/buttonConectar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/conectar_dispositivo"
@@ -29,9 +31,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-
-        >
+        android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

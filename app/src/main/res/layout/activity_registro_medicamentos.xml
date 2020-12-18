@@ -7,10 +7,10 @@
     tools:context=".RegistroMedicamentosActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/editTextDosis"
         android:layout_width="169dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editTextTextPersonName3"
+        android:layout_below="@+id/editTextNombreMedicamento"
         android:layout_marginStart="20dp"
         android:layout_marginTop="44dp"
         android:layout_toEndOf="@+id/textView3"
@@ -34,7 +34,7 @@
         tools:text="@string/tit_med" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/editTextNombreMedicamento"
         android:layout_width="166dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
@@ -58,7 +58,7 @@
         android:textColor="#F44336" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonRegistrar"
         android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -92,10 +92,10 @@
         android:textColor="@color/purple_500" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/editTextDescripcion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editTextTextPersonName4"
+        android:layout_below="@+id/editTextDosis"
         android:layout_marginStart="25dp"
         android:layout_marginTop="40dp"
         android:layout_toEndOf="@+id/textView9"
@@ -105,10 +105,10 @@
         android:textSize="14sp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/editTextIntervalo"
         android:layout_width="89dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editTextTextPersonName7"
+        android:layout_below="@+id/editTextDescripcion"
         android:layout_marginStart="41dp"
         android:layout_marginTop="28dp"
         android:layout_toEndOf="@+id/textView10"

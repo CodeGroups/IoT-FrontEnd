@@ -28,5 +28,8 @@
     <string name="ej_metformina">Ej. Metformina</string>
     <string name="ej_16_comprimidos">Ej. 16 comprimidos</string>
     <string name="nombre_del_medicamento">Nombre del medicamento:</string>
+    <string name="medicamento">Medicamento:</string>
+    <string name="configurar_medicacion">CONFIGURAR MEDICACION</string>
+    <string name="dosis">Dosis:</string>
 
 </resources>
