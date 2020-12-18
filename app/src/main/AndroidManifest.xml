@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IoT_Application">
+        <activity android:name=".HomeActivity"></activity>
         <activity android:name=".ListadoMedicamentosActivity" />
         <activity android:name=".DatosUsuarioActivity" />
         <activity android:name=".RegistroMedicamentosActivity" />

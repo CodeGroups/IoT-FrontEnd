@@ -16,5 +16,17 @@
 
 
     <string name="name_usu">Datos del paciente</string>
+    <string name="nombre_del_dispositivo">Nombre del dispositivo:</string>
+    <string name="ingrese_el_nombre">Ingrese el nombre</string>
+    <string name="conectar_dispositivo">Conectar dispositivo</string>
+    <string name="_12_00_hrs">12:00 hrs.</string>
+    <string name="ej_desinflamante">Ej. Desinflamante</string>
+    <string name="intervalos_hrs">Intervalos (hrs.):</string>
+    <string name="descripcion_del_medicamento">Descripcion del medicamento:</string>
+    <string name="registrar_datos">Registrar datos</string>
+    <string name="dosis_de_la_medicamento">Dosis de la medicamento:</string>
+    <string name="ej_metformina">Ej. Metformina</string>
+    <string name="ej_16_comprimidos">Ej. 16 comprimidos</string>
+    <string name="nombre_del_medicamento">Nombre del medicamento:</string>
 
 </resources>
